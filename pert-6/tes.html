@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+<form>
+    <input type="button" value="pilih" onclick="tipe();"/>
+</form>
+    <script type ="text/javascript">
+    document.write("<h1><center>Menu lingkaran</center></h1><br>");
+    document.write("<h2>1.Jari-jari lingkaran</h2><br>"); 
+    document.write("<h2>2.Keliling lingkaran</h2><br>");
+    document.write("<h2>3.Luas lingkaran</h2><br>");
+function tipe()
+{
+    var bil = prompt("silahkan masukan pilihan anda : ",0);
+  if(bil == 1)
+  {
+    var a = prompt("silahkan masukan jari-jari lingkaran : ",0);
+    document.write("<h1> jari-jari lingkaran : "+ a +"</h1>");
+  }
+  if(bil == 2)
+  {
+    var b = prompt("silahkan masukan jari-jari lingkaran : ",0);
+    var c = 2 * 3.14 * b; 
+    document.write("<h1> keliling lingkaran : "+ c +"</h1>");
+  }
+  if(bil == 3)
+  {
+    var d = prompt("silahkan masukan jari-jari lingkaran : ",0);
+    var e = 3.14 * d * d;
+    document.write("<h1> luas lingkaran : "+ e +"</h1>");
+  }
+}
+    </script>
+</body>
+</html>

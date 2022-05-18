@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Soal No 4</title>
+</head>
+<style>
+</style>
+<body>
+    <center><h2>Piramida</h2></center>
+    <script type="text/javascript">
+let n = 5;
+let string = "";
+    for (let i = 1; i <= n; i++) 
+    {
+    for (let j = n; j > i; j--) 
+    {
+        string += " ";
+    }
+    for (let k = 0; k < i * 2 - 1; k++) 
+    {
+        string += "*";
+    }
+      string += "<br>";
+    }
+    document.write(`<center><h2>${string}</h2>`);
+ </script>
+</body>
+</html>
